@@ -1,0 +1,55 @@
+body {
+  background: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.d-flex {
+  display: flex; }
+
+.jusArond {
+  justify-content: space-around; }
+
+.green {
+  color: #70c446; }
+
+.gray {
+  color: #1e252b; }
+
+.select {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding-top: 135px; }
+  .select h1 {
+    padding-right: 135px;
+    font-size: 26px; }
+  .select select {
+    background-color: #1e252b;
+    padding-left: 296px;
+    color: #ffff; }
+
+.coins {
+  display: flex;
+  margin-top: 84px;
+  justify-content: center; }
+  .coins .ethereum {
+    background-image: url("../img/EthereumBg.png");
+    width: 18.7%;
+    height: 353px;
+    text-align: center;
+    margin-left: 30px; }
+    .coins .ethereum h1 {
+      margin: 24px 0 18px 0;
+      color: #ffffff;
+      font-size: 27px; }
+    .coins .ethereum .price {
+      display: flex;
+      justify-content: space-around;
+      color: #ffff;
+      padding-top: 20px;
+      font-size: 22px; }
+    .coins .ethereum .change {
+      display: flex;
+      justify-content: space-around;
+      color: #ffff;
+      padding-top: 18px; }
